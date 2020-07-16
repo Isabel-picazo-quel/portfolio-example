@@ -19,7 +19,9 @@ img {
 svg {
   width: 10%;
 }
-
+body{
+  background-color: blanchedalmond;
+}
 .projects-container {
   width: 80%;
   margin: 0 auto;
@@ -58,8 +60,10 @@ svg {
 }
 
 .project-info-title {
-  font-size: 28px;
+  font-size: 38px;
   margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
 }
 
 .project-info-subtitle {
