@@ -1,0 +1,101 @@
+@font-face {
+  src: url("../fonts/Montserrat-Light.ttf");
+  font-family: "Montserrat-Light";
+}
+
+footer {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  background-color: #522B39;
+  text-align: right;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+svg {
+  width: 10%;
+}
+
+.projects-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.project-full {
+  width: 100%;
+}
+
+.project-img {
+  width: 50%;
+}
+
+.project-info {
+  width: 50%;
+}
+
+.project-info-right {
+  width: 48%;
+}
+
+.project-title {
+  -webkit-text-stroke: 1px #953A3A;
+  font-size: 50px;
+}
+
+.project-subtitle {
+  font-size: 28px;
+}
+
+.project-info-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.project-info-subtitle {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.project-info-link {
+  font-size: 25px;
+}
+
+.project-footer-info {
+  width: 50%;
+  color: white;
+  text-align: left;
+  margin-left: 62px;
+}
+
+.project-footer-contact {
+  width: 50%;
+  color: white;
+  margin-right: 62px;
+}
+
+@media only screen and (max-width: 414px) {
+  .projects-container {
+    width: 90%;
+  }
+  .project {
+    flex-direction: column;
+  }
+  .project-img {
+    width: 100%;
+  }
+  .project-info {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
